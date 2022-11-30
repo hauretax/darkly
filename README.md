@@ -8,7 +8,7 @@ les faille que je prevois de croiser :
 - injeciton de donner sur l upload dimage
 - injection js
 - injection php (j ai croiser ca sur internet mais je ne suis pas sur de ocomment ca marche)
-
+- manipulation de cookie
 
 29novembre :
 je comprend comment lancer la machine grace a ce lien que de sympathique gens m on donner sur discord 
