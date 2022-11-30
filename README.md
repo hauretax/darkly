@@ -3,11 +3,11 @@ projet de web secu de 42
 
 
 les faille que je prevois de croiser :
-injection sql sur une recherche 
-injection sql sur login
-injeciton de donner sur l upload dimage
-injection js
-injection php (j ai croiser ca sur internet mais je ne suis pas sur de ocomment ca marche)
+-injection sql sur une recherche 
+-injection sql sur login
+-injeciton de donner sur l upload dimage
+-injection js
+-injection php (j ai croiser ca sur internet mais je ne suis pas sur de ocomment ca marche)
 
 
 29novembre :
