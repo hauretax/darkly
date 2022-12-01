@@ -66,3 +66,6 @@ il me suiffit de remplacer </br>
 http://192.168.56.101/?page=signin&username=d&password=d&Login=Login# </br>
 par les username et password de mon choix (je crois je ne comprend pas l interet de Login) </br>
 j ai essayer de le mettre a true mais rien ne se passe </br>
+
+## 1 union all select 1,group_concat(table_name) from Information_schema.tables where table_schema = database(); 
+me renvoi user je ne suis pas sur de situer la difference entre concat et gorup concate
