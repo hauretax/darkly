@@ -10,14 +10,14 @@ les faille que je prevois de croiser :
 - injection php (j ai croiser ca sur internet mais je ne suis pas sur de ocomment ca marche)
 - manipulation de cookie
 
-29novembre :
+#29novembre :
 je comprend comment lancer la machine grace a ce lien que de sympathique gens m on donner sur discord 
 https://github.com/AdonisEnProvence/Darkly#setup
 je me rend compte que les recherche de photos et d user renvois des erreurs sql 
 il y a probablement moyen d y injecter des choses
 je testes des trucs
 
-30 novembre : 
+#30 novembre : 
 je test plein de solution dinjeciton sql et une trouver sur se stie touche enfin 
 https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet/
  ## 0 UNION ALL SELECT NULL,version()-- 
@@ -46,3 +46,23 @@ me donne toute les columns existante
 visiblement http://192.168.56.101/index.php?page=member
 et http://192.168.56.101/index.php?page=searchimg
 n on pas le meme fonctionnement
+
+#1 decembre:
+
+## 0 or 1 = 1;
+
+me retourn des infos bien plus interessante dans le user .
+
+je supose que la query sur le serveur ressemble a 
+
+### SELECT * FROM user WHERE user_id = (what i typing);
+
+
+en parallel j ai tester un outil qui etais sencer brut force les mdp mais il me dit que tout les mot de passe de ca liste sont bon .... 
+
+
+je pensse que j ai foirer un truc donc je vais fair mon propre outil </br>
+il me suiffit de remplacer </br>
+http://192.168.56.101/?page=signin&username=d&password=d&Login=Login# </br>
+par les username et password de mon choix (je crois je ne comprend pas l interet de Login) </br>
+j ai essayer de le mettre a true mais rien ne se passe </br>
