@@ -73,6 +73,8 @@ me renvoi user je ne suis pas sur de situer la difference entre concat et gorup 
 
 # 15 decembre 
 
+j ai mit en place un moyen avec fetch de brutforce le site
+
 arriver tongyu qui me montre une super faile coter http://192.168.56.101/index.php?page=survey#
 il suffit de changer les valeur dans les option et on optien le flags :
 ``` 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa```
