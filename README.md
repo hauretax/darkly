@@ -69,3 +69,11 @@ j ai essayer de le mettre a true mais rien ne se passe </br>
 
 ## 1 union all select 1,group_concat(table_name) from Information_schema.tables where table_schema = database(); 
 me renvoi user je ne suis pas sur de situer la difference entre concat et gorup concate
+
+
+# 15 decembre 
+
+arriver tongyu qui me montre une super faile coter http://192.168.56.101/index.php?page=survey#
+il suffit de changer les valeur dans les option et on optien le flags :
+``` 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa```
+izi
