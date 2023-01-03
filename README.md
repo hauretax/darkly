@@ -79,3 +79,13 @@ arriver tongyu qui me montre une super faile coter http://192.168.56.101/index.p
 il suffit de changer les valeur dans les option et on optien le flags :
 ``` 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa```
 izi
+
+
+en decryptant le cooki en md5 on trouve false je supose donc que l on peu encrypter la chaine true pour devenire admin 
+se qui fonctionne et me permet donc de trouver le flag : ``` df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3 ```
+
+dans
+http://192.168.56.101/?page=feedback
+en rentrans une balise html style <h1>test</h1>
+on obtien le flag : 
+```0FBB54BBF7D099713CA4BE297E1BC7DA0173D8B3C21C1811B916A3A86652724E```
