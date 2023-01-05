@@ -86,8 +86,12 @@ se qui fonctionne et me permet donc de trouver le flag : ``` df2eb4ba34ed059a1e3
 
 dans
 http://192.168.56.101/?page=feedback
-en rentrans une balise html style <h1>test</h1>
+en rentrans une balise html style 
+
+ \<div\>test\</div\> 
+
 on obtien le flag : 
+
 ```0FBB54BBF7D099713CA4BE297E1BC7DA0173D8B3C21C1811B916A3A86652724E```
 
 
@@ -140,7 +144,7 @@ bref je suis sur la bonne vois je tente donc des recherch et je fait un ctrlf 'd
 
 je crois que j ai gagner
 
-je tente dencode `<script>alert('coucou')</script>`  en base 64 ca me donne :  PHNjcmlwdD5hbGVydCgnY291Y291Jyk8L3NjcmlwdD4=
+je tente dencode ``<script>alert('coucou')</script>``  en base 64 ca me donne :  PHNjcmlwdD5hbGVydCgnY291Y291Jyk8L3NjcmlwdD4=
 
 http://192.168.56.101/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnY291Y291Jyk8L3NjcmlwdD4=
 
